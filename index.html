@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="BM Auto Solution — garage automobile spécialisé en mécanique et reprogrammation ECU." />
+    <title>BM Auto Solution</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="index.html" class="brand">
+          <img src="assets/bma-facebook-photde-profil.png" alt="BM Auto Solution logo" class="brand-logo" />
+        </a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html" data-i18n="nav.home">Accueil</a>
+          <a href="services.html" data-i18n="nav.services">Services</a>
+          <a href="tarifs.html" data-i18n="nav.pricing">Tarifs</a>
+          <a href="rendezvous.html" data-i18n="nav.booking">Rendez-vous</a>
+          <a href="about.html" data-i18n="nav.about">À propos</a>
+          <a href="gallery.html" data-i18n="nav.gallery">Galerie</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <select id="lang-switcher" class="lang-switcher">
+            <option value="fr">FR</option>
+            <option value="en">EN</option>
+            <option value="ar">AR</option>
+          </select>
+          <a class="btn btn-primary" href="rendezvous.html" data-i18n="nav.cta">Prendre rendez-vous</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow" data-i18n="hero.eyebrow">Garage automobile professionnel</p>
+            <h1 data-i18n="hero.title">Mécanique, électronique et reprogrammation ECU</h1>
+            <p class="hero-copy" data-i18n="hero.description">Un atelier technique au service de la performance, du confort et de la fiabilité de votre véhicule.</p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="rendezvous.html" data-i18n="hero.primary">Prendre rendez-vous</a>
+              <a class="btn btn-secondary" href="services.html" data-i18n="hero.secondary">Découvrir nos services</a>
+            </div>
+            <div class="hero-stats">
+              <div><strong>+15 ans</strong><span data-i18n="hero.statYears">d'expérience</span></div>
+              <div><strong>100%</strong><span data-i18n="hero.statDiag">Diagnostic complet</span></div>
+              <div><strong>24/7</strong><span data-i18n="hero.statSupport">Support technique</span></div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <img src="assets/Screenshot 2026-08-05 231631.png" alt="Atelier BM Auto Solution" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="about.eyebrow">Qui sommes-nous</p>
+            <h2 data-i18n="about.title">Un garage moderne au service de vos performances</h2>
+          </div>
+          <div class="about-grid">
+            <p data-i18n="about.text">BM Auto Solution réunit une expertise mécanique et électronique de haut niveau pour offrir un accompagnement fiable, transparent et rapide.</p>
+            <p data-i18n="about.text2">Nous intervenons sur les moteurs essence et diesel, les boîtes de vitesses, les freins, la climatisation, les calculateurs et les véhicules de performances.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="services.eyebrow">Nos services</p>
+            <h2 data-i18n="services.title">Des interventions techniques adaptées à chaque besoin</h2>
+          </div>
+          <div class="card-grid">
+            <article class="card service-card">
+              <img src="assets/services/gettyimages-1497239622-612x612.jpg" alt="Reprogrammation ECU" />
+              <h3 data-i18n="services.ecuTitle">Reprogrammation ECU</h3>
+              <p data-i18n="services.ecuText">Stage 1, Stage 2, optimisation moteur, suppression FAP/EGR/DPF selon réglementation.</p>
+            </article>
+            <article class="card service-card">
+              <img src="assets/services/gettyimages-1186093143-612x612.jpg" alt="Réparation mécanique" />
+              <h3 data-i18n="services.mechanicalTitle">Réparation mécanique</h3>
+              <p data-i18n="services.mechanicalText">Diagnostic, freinage, embrayage, distribution, climatisation et entretien courant.</p>
+            </article>
+            <article class="card service-card">
+              <img src="assets/services/gettyimages-1349412663-612x612.jpg" alt="Diagnostic électronique" />
+              <h3 data-i18n="services.diagnosticTitle">Diagnostic électronique</h3>
+              <p data-i18n="services.diagnosticText">Analyse des pannes moteur, boîtes, capteurs et calculateur avec outils professionnels.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="home.realizationsEyebrow">Nos réalisations</p>
+            <h2 data-i18n="home.realizationsTitle">Des interventions visibles, propres et performantes</h2>
+          </div>
+          <div class="gallery-grid">
+            <article class="media-card">
+              <img src="assets/Screenshot 2026-08-05 231631.png" alt="Atelier et intervention BM Auto Solution" />
+              <h3 data-i18n="home.atelierTitle">Atelier moderne</h3>
+              <p data-i18n="home.atelierText">Equipements dédiés pour la réparation et la reprogrammation de véhicules.</p>
+            </article>
+            <article class="media-card">
+              <img src="assets/services/gettyimages-1892179107-612x612.jpg" alt="Moteur et électronique" />
+              <h3 data-i18n="home.diagnosticTitle">Diagnostic moteur</h3>
+              <p data-i18n="home.diagnosticText">Analyse précise des défauts électroniques et mécaniques.</p>
+            </article>
+            <article class="media-card">
+              <img src="assets/services/gettyimages-2214445664-612x612.jpg" alt="Véhicule en entretien" />
+              <h3 data-i18n="home.maintenanceTitle">Entretien complet</h3>
+              <p data-i18n="home.maintenanceText">Préparation, maintenance et optimisation de la mécanique.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow" data-i18n="why.eyebrow">Pourquoi nous choisir</p>
+            <h2 data-i18n="why.title">Expertise, rapidité et garantie</h2>
+          </div>
+          <div class="card-grid">
+            <article class="card"><h3 data-i18n="why.expertise">Expertise reprogrammation</h3><p data-i18n="why.expertiseText">Interventions sur calculateurs modernes avec méthodologie sûre.</p></article>
+            <article class="card"><h3 data-i18n="why.speed">Rapidité</h3><p data-i18n="why.speedText">Prise en charge rapide et suivi transparent.</p></article>
+            <article class="card"><h3 data-i18n="why.garantie">Garantie</h3><p data-i18n="why.garantieText">Travaux réalisés avec contrôle qualité et garantie sur les interventions.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container contact-grid">
+          <div>
+            <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+            <h2 data-i18n="contact.title">Prendre rendez-vous ou demander un devis</h2>
+            <p data-i18n="contact.text">Contactez-nous pour un diagnostic ou une intervention sur votre véhicule.</p>
+            <div class="contact-list">
+              <p><strong>Téléphone :</strong> 27991953</p>
+              <p><strong>Adresse :</strong> 41 rue Barcelone, El Mourouj 4</p>
+              <p><strong>Facebook :</strong> <a class="inline-link" href="https://www.facebook.com/bassemmadiounii" target="_blank" rel="noopener">/bassemmadiounii</a></p>
+              <p><strong>Site officiel :</strong> <a class="inline-link" href="https://www.bmautosolution.com" target="_blank" rel="noopener">www.bmautosolution.com</a></p>
+            </div>
+          </div>
+          <div class="card contact-card">
+            <h3 data-i18n="contact.hoursTitle">Horaires</h3>
+            <p data-i18n="contact.hours">Lundi - Vendredi : 8h30 - 18h30</p>
+            <p>Téléphone : 979171799</p>
+            <p>Adresse : 41 rue Barcelone, El Mourouj 4</p>
+            <a class="btn btn-secondary" href="contact.html">Voir la carte et nous écrire</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <div class="footer-col">
+          <h4>BM Auto Solution</h4>
+          <p>41 rue Barcelone, El Mourouj 4</p>
+          <p>Téléphone : <a href="tel:+216979171799">+216 97 917 1799</a></p>
+          <p><a href="https://www.facebook.com/bassemmadiounii" target="_blank" rel="noopener">Facebook /bassemmadiounii</a></p>
+        </div>
+        <div class="footer-col">
+          <h4>Liens</h4>
+          <p><a href="contact.html">Contact</a></p>
+          <p><a href="services.html">Services</a></p>
+          <p><a href="rendezvous.html">Prendre rendez-vous</a></p>
+        </div>
+        <div class="footer-col">
+          <h4>Nous contacter</h4>
+          <p><a class="btn btn-primary" href="https://wa.me/21697917199" target="_blank" rel="noopener">Envoyer un message WhatsApp</a></p>
+        </div>
+      </div>
+    </footer>
+
+    <a class="whatsapp-float" href="https://wa.me/21697917199" target="_blank" rel="noopener">WhatsApp</a>
+    <script src="translations/i18n.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,66 @@
+{
+  "siteTitle": "BM Auto Solution",
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "pricing": "Tarifs",
+    "booking": "Rendez-vous",
+    "about": "À propos",
+    "gallery": "Galerie",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Garage automobile professionnel",
+    "title": "Mécanique, électronique et reprogrammation ECU",
+    "description": "Un atelier technique au service de la performance, du confort et de la fiabilité de votre véhicule.",
+    "primary": "Prendre rendez-vous",
+    "secondary": "Découvrir nos services"
+  },
+  "about": {
+    "title": "Un garage moderne au service de vos performances",
+    "text": "BM Auto Solution réunit une expertise mécanique et électronique pour offrir un accompagnement fiable, transparent et rapide." 
+  },
+  "services": {
+    "title": "Nos prestations techniques",
+    "ecu": "Reprogrammation ECU",
+    "meca": "Réparation mécanique",
+    "diag": "Diagnostic électronique"
+  },
+  "why": {
+    "title": "Pourquoi choisir BM Auto Solution ?",
+    "expertise": "Expertise reprogrammation",
+    "speed": "Rapidité",
+    "warranty": "Garantie"
+  },
+  "contact": {
+    "title": "Prendre rendez-vous ou demander un devis",
+    "hours": "Lundi - Vendredi : 8h30 - 18h30"
+  },
+  "footer": {
+    "text": "© 2026 BM Auto Solution"
+  },
+  "pricing": {
+    "title": "Calculateur de main d’œuvre",
+    "rateLabel": "Taux horaire",
+    "hoursLabel": "Heures estimées",
+    "partsLabel": "Pièces détachées",
+    "calculate": "Calculer",
+    "result": "Total estimé :",
+    "disclaimer": "Estimation indicative, devis final après diagnostic."
+  },
+  "booking": {
+    "title": "Prendre rendez-vous",
+    "service": "Service",
+    "vehicle": "Marque et modèle",
+    "date": "Date",
+    "time": "Heure",
+    "comment": "Description de la panne",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "Email",
+    "submit": "Envoyer la demande"
+  },
+  "gallery": {
+    "title": "Galerie de réalisations"
+  }
+}

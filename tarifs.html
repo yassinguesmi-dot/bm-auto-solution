@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarifs - BM Auto Solution</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="index.html" class="brand"><img src="assets/bma-facebook-photde-profil.png" alt="BM Auto Solution logo" class="brand-logo" /></a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html" data-i18n="nav.home">Accueil</a>
+          <a href="services.html" data-i18n="nav.services">Services</a>
+          <a href="tarifs.html" data-i18n="nav.pricing">Tarifs</a>
+          <a href="rendezvous.html" data-i18n="nav.booking">Rendez-vous</a>
+          <a href="about.html" data-i18n="nav.about">À propos</a>
+          <a href="gallery.html" data-i18n="nav.gallery">Galerie</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <select id="lang-switcher" class="lang-switcher">
+            <option value="fr">FR</option>
+            <option value="en">EN</option>
+            <option value="ar">AR</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main class="container page">
+      <section class="pricing-hero">
+        <div>
+          <p class="eyebrow">Tarifs</p>
+          <h1 data-i18n="pricing.title">Des prestations claires et adaptées à votre budget</h1>
+          <p>Obtenez une estimation rapide pour votre intervention et confirmez votre devis avec un diagnostic précis.</p>
+        </div>
+      </section>
+
+      <section class="pricing-grid">
+        <article class="card pricing-card">
+          <h2>Estimation rapide</h2>
+          <label data-i18n="pricing.rateLabel">Taux horaire</label>
+          <input id="hourlyRate" type="number" value="80" />
+          <label data-i18n="pricing.hoursLabel">Nombre d'heures estimées</label>
+          <input id="hours" type="number" value="2" />
+          <label data-i18n="pricing.partsLabel">Pièces détachées (optionnel)</label>
+          <input id="parts" type="number" value="0" />
+          <button class="btn btn-primary" id="calculateBtn" data-i18n="pricing.calculate">Calculer</button>
+          <p id="result" class="result" data-i18n="pricing.result">Total estimé : 0 DT</p>
+          <p class="small" data-i18n="pricing.disclaimer">Estimation indicative, devis final après diagnostic.</p>
+        </article>
+
+        <article class="card pricing-info">
+          <h2>Nos prestations</h2>
+          <ul>
+            <li>Reprogrammation ECU et optimisation moteur</li>
+            <li>Diagnostic électronique avancé</li>
+            <li>Réparation mécanique générale</li>
+            <li>Entretien et climatisation</li>
+          </ul>
+          <a class="btn btn-secondary" href="rendezvous.html">Prendre rendez-vous</a>
+        </article>
+      </section>
+    </main>
+
+    <script src="translations/i18n.js"></script>
+    <script src="app.js"></script>
+    <script src="calculator.js"></script>
+  </body>
+</html>

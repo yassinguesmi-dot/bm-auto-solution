@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - BM Auto Solution</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="index.html" class="brand"><img src="assets/bma-facebook-photde-profil.png" alt="BM Auto Solution logo" class="brand-logo" /></a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html" data-i18n="nav.home">Accueil</a>
+          <a href="services.html" data-i18n="nav.services">Services</a>
+          <a href="tarifs.html" data-i18n="nav.pricing">Tarifs</a>
+          <a href="rendezvous.html" data-i18n="nav.booking">Rendez-vous</a>
+          <a href="about.html" data-i18n="nav.about">À propos</a>
+          <a href="gallery.html" data-i18n="nav.gallery">Galerie</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <select id="lang-switcher" class="lang-switcher">
+            <option value="fr">FR</option>
+            <option value="en">EN</option>
+            <option value="ar">AR</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main class="container page">
+      <h1 data-i18n="contact.pageTitle">Contactez-nous</h1>
+      <section class="card contact-spotlight">
+        <div class="contact-details">
+          <h2>BM Auto Solution</h2>
+          <p>Garage automobile spécialisé en mécanique, électronique et reprogrammation ECU.</p>
+          <p><strong>WhatsApp :</strong> +21697917199</p>
+          <p><strong>Adresse :</strong> 41 rue Barcelone, El Mourouj 4</p>
+          <p><strong>Horaires :</strong> Lundi - Vendredi : 8h30 - 18h30</p>
+          <p><strong>Page Facebook :</strong> <a class="inline-link" href="https://www.facebook.com/bassemmadiounii" target="_blank" rel="noopener">/bassemmadiounii</a></p>
+          <p><strong>Site officiel :</strong> <a class="inline-link" href="https://www.bmautosolution.com" target="_blank" rel="noopener">www.bmautosolution.com</a></p>
+          <a class="btn btn-primary" href="https://wa.me/21697917199" target="_blank" rel="noopener">Contacter par WhatsApp</a>
+        </div>
+        <div class="map-card">
+          <h3 data-i18n="contact.mapTitle">Nous trouver</h3>
+          <iframe class="map-frame" src="https://www.google.com/maps?q=41+rue+Barcelone+El+Mourouj+4&z=17&output=embed" loading="lazy" allowfullscreen></iframe>
+        </div>
+      </section>
+      <section class="card">
+        <form class="contact-form">
+          <label>Nom</label>
+          <input type="text" name="name" required />
+          <label>Email</label>
+          <input type="email" name="email" required />
+          <label>Message</label>
+          <textarea name="message" required></textarea>
+          <button class="btn btn-primary" type="submit">Envoyer</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="translations/i18n.js"></script>
+    <script src="data/storage.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

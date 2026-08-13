@@ -1,0 +1,66 @@
+{
+  "siteTitle": "BM Auto Solution",
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "booking": "Booking",
+    "about": "About",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Professional automotive garage",
+    "title": "Mechanical, electronic and ECU remapping expertise",
+    "description": "A technical workshop dedicated to performance, comfort and reliability for your vehicle.",
+    "primary": "Book now",
+    "secondary": "Discover our services"
+  },
+  "about": {
+    "title": "A modern garage for your performance needs",
+    "text": "BM Auto Solution combines mechanical and electronic expertise to deliver reliable, transparent and fast support." 
+  },
+  "services": {
+    "title": "Our technical services",
+    "ecu": "ECU remapping",
+    "meca": "Mechanical repair",
+    "diag": "Electronic diagnostics"
+  },
+  "why": {
+    "title": "Why choose BM Auto Solution?",
+    "expertise": "Remapping expertise",
+    "speed": "Speed",
+    "warranty": "Warranty"
+  },
+  "contact": {
+    "title": "Book an appointment or request a quote",
+    "hours": "Monday - Friday: 8:30 AM - 6:30 PM"
+  },
+  "footer": {
+    "text": "© 2026 BM Auto Solution"
+  },
+  "pricing": {
+    "title": "Labour cost calculator",
+    "rateLabel": "Hourly rate",
+    "hoursLabel": "Estimated hours",
+    "partsLabel": "Spare parts",
+    "calculate": "Calculate",
+    "result": "Estimated total:",
+    "disclaimer": "Indicative estimate, final quote after diagnosis."
+  },
+  "booking": {
+    "title": "Book an appointment",
+    "service": "Service",
+    "vehicle": "Make and model",
+    "date": "Date",
+    "time": "Time",
+    "comment": "Description of the fault",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email",
+    "submit": "Send request"
+  },
+  "gallery": {
+    "title": "Gallery of achievements"
+  }
+}

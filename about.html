@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>À propos - BM Auto Solution</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="index.html" class="brand"><img src="assets/bma-facebook-photde-profil.png" alt="BM Auto Solution logo" class="brand-logo" /></a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html" data-i18n="nav.home">Accueil</a>
+          <a href="services.html" data-i18n="nav.services">Services</a>
+          <a href="tarifs.html" data-i18n="nav.pricing">Tarifs</a>
+          <a href="rendezvous.html" data-i18n="nav.booking">Rendez-vous</a>
+          <a href="about.html" data-i18n="nav.about">À propos</a>
+          <a href="gallery.html" data-i18n="nav.gallery">Galerie</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <select id="lang-switcher" class="lang-switcher">
+            <option value="fr">FR</option>
+            <option value="en">EN</option>
+            <option value="ar">AR</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main class="container page">
+      <section class="about-page">
+        <div class="about-page-copy">
+          <p class="eyebrow">À propos</p>
+          <h1 data-i18n="about.pageTitle">À propos de BM Auto Solution</h1>
+          <p data-i18n="about.pageText">Nous accompagnons nos clients avec un savoir-faire mécanique et électronique de haut niveau, au service de la performance, de la sécurité et de la fiabilité.</p>
+          <p>BM Auto Solution s’appuie sur une expertise technique solide, des diagnostics précis et une approche transparente pour proposer des solutions adaptées à chaque véhicule, qu’il s’agisse d’un entretien courant, d’une réparation complexe ou d’une optimisation sur mesure.</p>
+        </div>
+        <div class="card about-page-card">
+          <h2>Pourquoi nous faire confiance</h2>
+          <ul>
+            <li>Expertise mécanique et électronique</li>
+            <li>Diagnostic rapide et fiable</li>
+            <li>Interventions adaptées aux véhicules modernes</li>
+            <li>Accompagnement transparent et professionnel</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="translations/i18n.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

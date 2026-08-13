@@ -1,0 +1,9 @@
+{
+  "name": "bm-auto-solution",
+  "version": "1.0.0",
+  "description": "Backend local pour BM Auto Solution",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

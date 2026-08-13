@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rendez-vous - BM Auto Solution</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="index.html" class="brand"><img src="assets/bma-facebook-photde-profil.png" alt="BM Auto Solution logo" class="brand-logo" /></a>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html" data-i18n="nav.home">Accueil</a>
+          <a href="services.html" data-i18n="nav.services">Services</a>
+          <a href="tarifs.html" data-i18n="nav.pricing">Tarifs</a>
+          <a href="rendezvous.html" data-i18n="nav.booking">Rendez-vous</a>
+          <a href="about.html" data-i18n="nav.about">À propos</a>
+          <a href="gallery.html" data-i18n="nav.gallery">Galerie</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <select id="lang-switcher" class="lang-switcher">
+            <option value="fr">FR</option>
+            <option value="en">EN</option>
+            <option value="ar">AR</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main class="container page">
+      <section class="booking-shell">
+        <div class="booking-intro">
+          <p class="eyebrow">Rendez-vous</p>
+          <h1 data-i18n="booking.title">Planifiez votre intervention en quelques secondes</h1>
+          <p>Décrivez votre besoin, choisissez une date et nous vous recontactons rapidement pour confirmer votre rendez-vous.</p>
+        </div>
+        <form class="card booking-form">
+          <label data-i18n="booking.service">Service</label>
+          <select name="service" id="service-select">
+            <option>Reprogrammation et réparation calculateur</option>
+            <option>Reprogrammation Stage 1</option>
+            <option>Réparation mécanique générale</option>
+            <option>Réparation de compteurs</option>
+            <option>Diagnostic électronique avancé</option>
+            <option>Diagnostic complet</option>
+            <option>Suspension & Direction</option>
+            <option>Freinage</option>
+            <option>Vidange & Filtration</option>
+            <option>Gestion des systèmes antipollution</option>
+            <option>Économie de carburant</option>
+            <option>Reset Airbag</option>
+            <option>Réparation de calculateurs</option>
+            <option>Codage de clés</option>
+            <option>Distribution</option>
+            <option>Scanners de diagnostic</option>
+            <option>Outils de programmation</option>
+            <option>Équipement d’atelier</option>
+            <option>Electricité automobile</option>
+            <option>Moteur services avancés</option>
+          </select>
+
+          <div id="subservice-group" class="conditional-group" style="display:none;">
+            <label>Sous-service</label>
+            <select name="subservice" id="subservice-select">
+              <option value="">-- Sélectionnez --</option>
+            </select>
+          </div>
+
+          <div id="duration-group" class="conditional-group" style="display:none;">
+            <label>Durée estimée</label>
+            <select name="duration" id="duration-select">
+              <option value="30">30 minutes</option>
+              <option value="60">1 heure</option>
+              <option value="120">2 heures</option>
+              <option value="240">4 heures</option>
+            </select>
+          </div>
+          <label data-i18n="booking.vehicle">Marque et modèle</label>
+          <input type="text" name="vehicle" required />
+          <label data-i18n="booking.date">Date</label>
+          <input type="date" name="date" required />
+          <label data-i18n="booking.time">Heure</label>
+          <input type="time" name="time" required />
+          <label data-i18n="booking.comment">Commentaire</label>
+          <textarea name="comment"></textarea>
+          <label data-i18n="booking.name">Nom</label>
+          <input type="text" name="name" required />
+          <label data-i18n="booking.phone">Téléphone</label>
+          <input type="tel" name="phone" required />
+          <label data-i18n="booking.email">Email</label>
+          <input type="email" name="email" required />
+          <button class="btn btn-primary" type="submit" data-i18n="booking.submit">Envoyer la demande</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="translations/i18n.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
