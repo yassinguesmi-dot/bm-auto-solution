@@ -109,3 +109,18 @@ body[dir="rtl"] { text-align: right; }
 body[dir="rtl"] .nav-links, body[dir="rtl"] .hero-actions, body[dir="rtl"] .hero-stats, body[dir="rtl"] .header-actions { direction: rtl; }
 body[dir="rtl"] .nav-bar { flex-direction: row-reverse; }
 body[dir="rtl"] .hero-grid { direction: rtl; }
+
+/* Service "Voir plus" modal */
+.service-card .service-more-btn { background: none; border: 0; padding: 0 1.2rem 1.2rem; font: inherit; color: var(--accent); font-weight: 600; cursor: pointer; }
+.service-card .service-more-btn:hover { color: var(--accent-2); text-decoration: underline; }
+.service-modal { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 1rem; background: rgba(17, 24, 39, 0.6); }
+.service-modal[hidden] { display: none; }
+.service-modal-dialog { position: relative; width: min(560px, 100%); max-height: calc(100vh - 2rem); overflow-y: auto; background: var(--surface); border-radius: 20px; box-shadow: var(--shadow); }
+.service-modal-img { width: 100%; height: 240px; object-fit: cover; }
+.service-modal-body { padding: 1.4rem; }
+.service-modal-body h2 { margin: 0 0 0.5rem; }
+.service-modal-text { color: var(--muted); margin: 0 0 1rem; }
+.service-modal-list { margin: 0 0 1.4rem; padding-left: 1.2rem; }
+.service-modal-list li { margin-bottom: 0.3rem; }
+.service-modal-close { position: absolute; top: 0.7rem; right: 0.7rem; width: 38px; height: 38px; border-radius: 50%; border: 0; background: rgba(255,255,255,0.9); font-size: 1.5rem; line-height: 1; cursor: pointer; }
+body.modal-open { overflow: hidden; }

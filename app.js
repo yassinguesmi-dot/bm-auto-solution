@@ -109,4 +109,32 @@ document.addEventListener('DOMContentLoaded', () => {
     // initialize on page load
     updateConditionalFields();
   }
+  // Services page: 'Voir plus' opens details in a popup instead of leaving the site
+  const serviceModal = document.getElementById('service-modal');
+  if (serviceModal) {
+    const modalImg = serviceModal.querySelector('.service-modal-img');
+    const modalTitle = serviceModal.querySelector('#service-modal-title');
+    const modalText = serviceModal.querySelector('.service-modal-text');
+    const modalList = serviceModal.querySelector('.service-modal-list');
+    const closeModal = () => {
+      serviceModal.hidden = true;
+      document.body.classList.remove('modal-open');
+    };
+    document.querySelectorAll('.service-more-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const card = btn.closest('.service-card');
+        const img = card.querySelector('img');
+        modalImg.src = img.src;
+        modalImg.alt = img.alt;
+        modalTitle.textContent = card.querySelector('h2').textContent;
+        modalText.textContent = card.querySelector('p').textContent;
+        modalList.innerHTML = card.querySelector('.service-more').innerHTML;
+        serviceModal.hidden = false;
+        document.body.classList.add('modal-open');
+      });
+    });
+    serviceModal.querySelector('.service-modal-close').addEventListener('click', closeModal);
+    serviceModal.addEventListener('click', (e) => { if (e.target === serviceModal) closeModal(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !serviceModal.hidden) closeModal(); });
+  }
 });
