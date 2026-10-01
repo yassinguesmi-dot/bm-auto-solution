@@ -23,7 +23,7 @@ const translations = {
     'about.eyebrow': 'Qui sommes-nous',
     'about.title': 'Un garage technique à la pointe du diagnostic',
     'about.text': 'BM Auto Solution réunit expertise mécanique, électronique et reprogrammation pour offrir un service fiable sur tous types de véhicules.',
-    'about.text2': 'Nous intervenons sur les moteurs essence et diesel, les boîtes de vitesses, les freins, la climatisation et les calculateurs.',
+    'about.text2': 'Nous intervenons sur tous les services de mécanique auto et de diagnostic électronique : moteurs essence et diesel, boîtes de vitesses, freinage, climatisation, calculateurs et optimisation de performances. Chaque intervention vise la fiabilité, la sécurité et les performances durables de votre véhicule.',
     'services.eyebrow': 'Nos services',
     'services.title': 'Des interventions techniques adaptées à chaque besoin',
     'services.ecuTitle': 'Reprogrammation ECU',
