@@ -7,9 +7,11 @@
     <meta property="og:image" content="https://www.bmautosolution.tn/assets/og-image.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://www.bmautosolution.tn/assets/og-image.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/assets/favicon-32x32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -52,61 +54,3 @@
             <option>Reprogrammation et réparation calculateur</option>
             <option>Reprogrammation Stage 1</option>
             <option>Réparation mécanique générale</option>
-            <option>Réparation de compteurs</option>
-            <option>Diagnostic électronique avancé</option>
-            <option>Diagnostic complet</option>
-            <option>Suspension & Direction</option>
-            <option>Freinage</option>
-            <option>Vidange & Filtration</option>
-            <option>Gestion des systèmes antipollution</option>
-            <option>Économie de carburant</option>
-            <option>Reset Airbag</option>
-            <option>Réparation de calculateurs</option>
-            <option>Codage de clés</option>
-            <option>Distribution</option>
-            <option>Scanners de diagnostic</option>
-            <option>Outils de programmation</option>
-            <option>Équipement d’atelier</option>
-            <option>Electricité automobile</option>
-            <option>Moteur services avancés</option>
-          </select>
-
-          <div id="subservice-group" class="conditional-group" style="display:none;">
-            <label>Sous-service</label>
-            <select name="subservice" id="subservice-select">
-              <option value="">-- Sélectionnez --</option>
-            </select>
-          </div>
-
-          <div id="duration-group" class="conditional-group" style="display:none;">
-            <label>Durée estimée</label>
-            <select name="duration" id="duration-select">
-              <option value="30">30 minutes</option>
-              <option value="60">1 heure</option>
-              <option value="120">2 heures</option>
-              <option value="240">4 heures</option>
-            </select>
-          </div>
-          <label data-i18n="booking.vehicle">Marque et modèle</label>
-          <input type="text" name="vehicle" required />
-          <label data-i18n="booking.date">Date</label>
-          <input type="date" name="date" required />
-          <label data-i18n="booking.time">Heure</label>
-          <input type="time" name="time" required />
-          <label data-i18n="booking.comment">Commentaire</label>
-          <textarea name="comment"></textarea>
-          <label data-i18n="booking.name">Nom</label>
-          <input type="text" name="name" required />
-          <label data-i18n="booking.phone">Téléphone</label>
-          <input type="tel" name="phone" required />
-          <label data-i18n="booking.email">Email</label>
-          <input type="email" name="email" required />
-          <button class="btn btn-primary" type="submit" data-i18n="booking.submit">Envoyer la demande</button>
-        </form>
-      </section>
-    </main>
-
-    <script src="translations/i18n.js"></script>
-    <script src="app.js"></script>
-  </body>
-</html>

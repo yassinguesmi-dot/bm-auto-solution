@@ -7,9 +7,11 @@
     <meta property="og:image" content="https://www.bmautosolution.tn/assets/og-image.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="https://www.bmautosolution.tn/assets/og-image.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/assets/favicon-512.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon-192.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png" />
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/assets/favicon-32x32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png" />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -54,29 +56,3 @@
           <label data-i18n="pricing.rateLabel">Taux horaire</label>
           <input id="hourlyRate" type="number" value="80" />
           <label data-i18n="pricing.hoursLabel">Nombre d'heures estimées</label>
-          <input id="hours" type="number" value="2" />
-          <label data-i18n="pricing.partsLabel">Pièces détachées (optionnel)</label>
-          <input id="parts" type="number" value="0" />
-          <button class="btn btn-primary" id="calculateBtn" data-i18n="pricing.calculate">Calculer</button>
-          <p id="result" class="result" data-i18n="pricing.result">Total estimé : 0 DT</p>
-          <p class="small" data-i18n="pricing.disclaimer">Estimation indicative, devis final après diagnostic.</p>
-        </article>
-
-        <article class="card pricing-info">
-          <h2>Nos prestations</h2>
-          <ul>
-            <li>Reprogrammation ECU et optimisation moteur</li>
-            <li>Diagnostic électronique avancé</li>
-            <li>Réparation mécanique générale</li>
-            <li>Entretien et climatisation</li>
-          </ul>
-          <a class="btn btn-secondary" href="rendezvous.html">Prendre rendez-vous</a>
-        </article>
-      </section>
-    </main>
-
-    <script src="translations/i18n.js"></script>
-    <script src="app.js"></script>
-    <script src="calculator.js"></script>
-  </body>
-</html>
